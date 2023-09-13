@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: repeating-linear-gradient(to right, rgba(255, 0, 0, 0.049) 0%, rgba(128, 0, 128, 0) 2.5%, rgba(0, 0, 255, 0.101) 5%),
+                        repeating-linear-gradient(to bottom right, orange,red,rgb(198, 6, 241),rgb(107, 1, 107), rgb(68, 0, 68));
+    background-repeat: repeat-x;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+nav > a {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 35px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#login-page-logo {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: auto;
+}
+
+main {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 5px;
+    margin: 5x;
+    border: none;
+    border-bottom: 5px solid black;
+    font-size: 20px;
+    background: rgba(255,255,255,0);
+    outline: none;
+}
+
+label {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 5px;
+}
+
+::placeholder {
+    color: rgb(64, 64, 64);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#forgot-password {
+    display: inline-block;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    margin: 25px;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    outline: 3px solid black;
+    height: 20px;
+    width: 20px;
+}
+
+/* footer {
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    margin: 0;
+} */

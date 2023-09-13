@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav>
@@ -14,23 +15,28 @@
         <header>
             <h1>Login</h1>
         </header>
-        <img src="images/human-throwing-dump.png" alt="Human throwing dumpster">
+        <img id="login-page-logo" src="images/human-throwing-dump.png" alt="Human throwing dumpster">
+        <br><br>
         <main>
-            <label>Username</label>
-            <input type="text" id="username" placeholder="Enter username">
-            <br>
-            <label>Password</label>
-            <input type="password" id="password" placeholder="Enter password">
-            <a href="#">Forgot Password?</a>
-            <br>
-            <button type="submit">Login</button>
-            <br>
-            <input type="checkbox" id="RememberMe" name="RememberMe" value="RememberMe">
-            <label for="RememberMe">Remember me</label><br>
-            <button type="reset">Cancel</button>
+            <form>
+                <label class="text-input">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <br>
+                <label class="text-input">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <br>
+                <a id="forgot-password" href="#">Forgot Password?</a>
+                <br>
+                <button type="submit">Login</button>
+                <br>
+                <input type="checkbox" id="RememberMe" name="RememberMe" value="RememberMe">
+                <label for="RememberMe">Remember me</label><br>
+                <button type="reset">Cancel</button>
+            </form>
         </main>
-        <footer>
-            You can copy as much as you want but please don't repost or claim as your own.
-        </footer>
+        <br><br>
+        <!-- <footer>
+            <p>You can copy as much as you want but please don't repost or claim as your own.</p>
+        </footer> -->
     </body>
 </html>
